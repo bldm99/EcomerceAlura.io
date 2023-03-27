@@ -1,0 +1,154 @@
+
+body{
+    /*background: green;*/
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+
+/*--------------------------------------Section Presentacion-------------------------*/
+
+.presentacion{
+    background: purple;
+    
+   
+   
+}
+.port {
+    background: blue;
+    height: 500px;
+    position: relative;
+}
+
+.port .port-letras{
+    /*background: rgba(0, 3, 0, 0.6) ;*/
+    position: absolute;
+    top: 200px;
+    z-index: 1;
+    width: 100%;
+    padding-left: 40px;
+   
+}
+
+.port .port-letras .txt{
+    font-size: calc(0.7em + 1vw);
+    color: white;
+}
+.txt button{
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    background: rgb(0, 102, 255);
+}
+
+
+
+.port img{
+    width: 100%;
+    height: 100%; 
+}
+
+
+
+
+
+
+.contenedor__productos{
+    background: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contenedor__productos .listado__productos{
+    /*background: rgb(198, 253, 68);*/
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px ,1fr)); 
+    gap: 20px;
+    justify-content: center;
+    /*align-items: center;  centrado vertical*/
+    text-align: center;
+}
+
+.contenedor__productos .listado__productos .caja-producto{
+    color: grey;
+  
+}
+
+.caja-producto a{
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+    font-weight: bold;
+
+}
+
+.contenedor__productos .titulo{
+    text-align: center;
+}
+
+.contenedor__productos .listado__productos img{
+    width: 100%;
+  
+    
+}
+
+.contenedor__productos .listado__productos .dato-producto{
+    /*color: azure;
+    background: blue;*/
+    font-size: calc(0.1em + 1vw);
+
+    
+}
+
+
+
+/*-----------------------------Footer------------------------*/
+
+.pie{
+    background: black;
+    padding: 12px;
+    align-items: center;
+}
+
+.pie .contenido-pie{
+    color: white;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .presentacion{
+        background: purple;
+        padding-top: 95px;  
+    }
+    
+    .port {   
+        height: 100%;
+    }
+    .port .port-letras{
+        top: 30px;  
+    }
+
+}
+
+
+@media (max-width: 425px) {
+    .contenedor__productos{
+        background: white;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+
+    .contenedor__productos .listado__productos{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}

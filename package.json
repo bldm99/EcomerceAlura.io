@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^1.3.4"
+  },
+  "name": "crudproductos",
+  "version": "1.0.0",
+  "description": "proyecto ecomerce",
+  "main": "logica.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yo",
+  "license": "ISC",
+  "type": "module"
+
+}

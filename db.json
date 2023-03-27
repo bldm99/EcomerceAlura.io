@@ -1,0 +1,65 @@
+{
+  "productos": [
+    {
+      "nombre": " Cuadro  de Black Panter",
+      "precio": " 120 ",
+      "descripcion": "Marvel Avengers",
+      "imagen": "https://p4.wallpaperbetter.com/wallpaper/363/114/425/black-panther-avenger-action-figures-wallpaper-preview.jpg",
+      "id": 1
+    },
+    {
+      "nombre": " Star Wars ",
+      "precio": " 80 ",
+      "descripcion": "Jugete ",
+      "imagen": "https://p4.wallpaperbetter.com/wallpaper/962/433/264/star-wars-stormtrooper-lego-rain-wallpaper-preview.jpg",
+      "id": 2
+    },
+    {
+      "nombre": "Deadpol",
+      "precio": "80",
+      "descripcion": "Cuadro 120 x 90",
+      "imagen": "https://p4.wallpaperbetter.com/wallpaper/877/392/997/action-figures-deadpool-3d-desktop-wallpaper-preview.jpg",
+      "id": 3
+    },
+    {
+      "nombre": "Wall-E",
+      "precio": "70",
+      "descripcion": "Cuadro 120 x 90",
+      "imagen": "https://p4.wallpaperbetter.com/wallpaper/774/56/930/cute-wall-e-wallpaper-preview.jpg",
+      "id": 4
+    },
+    {
+      "nombre": "Hallo",
+      "precio": "130",
+      "descripcion": "Cuadro 140 x 100",
+      "imagen": "https://p4.wallpaperbetter.com/wallpaper/356/803/689/halo-halo-nightfall-wallpaper-preview.jpg",
+      "id": 5
+    },
+    {
+      "nombre": "Anime",
+      "precio": "100",
+      "descripcion": "Cuadro de oleo 100 x 80",
+      "imagen": "https://p4.wallpaperbetter.com/wallpaper/176/475/643/kantai-collection-wallpaper-preview.jpg",
+      "id": 6
+    },
+    {
+      "nombre": "Gru",
+      "precio": "150",
+      "descripcion": "dimension 200 x 180",
+      "imagen": "https://p4.wallpaperbetter.com/wallpaper/227/440/1008/movie-guardians-of-the-galaxy-vol-2-baby-groot-groot-wallpaper-preview.jpg",
+      "id": 7
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "email": " normal@gmail.com ",
+      "tipo": "0"
+    },
+    {
+      "id": 2,
+      "email": " admin@gmail.com ",
+      "tipo": "1"
+    }
+  ]
+}

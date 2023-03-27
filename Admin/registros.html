@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doguito Petshop | Cadastro de cliente</title>
+    
+  </head>
+  <body>
+    <header class="header container">
+      
+      <nav>
+        <ul class="header__list-nav">
+          <li class="header__link"><a href="#">Dashboard</a></li>
+          <li class="header__link"><a href="#">Productos</a></li>
+          <li class="header__link">
+            <a href="lista_cliente.html">Clientes </a>
+          </li>
+          <li class="header__link"><a href="#">Pets</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container flex flex--center flex--column">
+      <section class="card cadastro">
+
+        <h1 class="titulo-crear" id="titulo-crear2">Registrar Nuevo Celular</h1>
+        
+
+        <form class="flex flex--column" data-form >
+          <div class="input-container">
+            <input
+              name="nombre"
+              id="nombre"
+              class="input"
+              type="text"
+              placeholder="Nombre"
+              data-nombre
+            />
+            <label class="input-label" for="nombre">Nombre</label>
+            
+          </div>
+          <div class="input-container">
+            <input
+              name="precio"
+              id="precio"
+              class="input"
+              type="text"
+              placeholder="precio"
+              data-precio
+            />
+            <label class="input-label" for="precio">Precio</label>
+          </div>
+
+          <div class="input-container  input-ediciondes">
+            <input
+              name="descripcion"
+              id="descripcion"
+              class="input"
+              type="text"
+              placeholder="descripcion"
+              data-descripcion
+            />
+            <label class="input-label" for="descripcion">descripcion</label>
+          </div>
+
+          <div class="input-container  input-edicionima">
+            <input
+              name="imagen"
+              id="imagen"
+              class="input"
+              type="text"
+              placeholder="imagen"
+              data-imagen
+            />
+            <label class="input-label" for="imagen">Imagen</label>
+          </div>
+       
+
+
+          <button type="submit" class="button-registrar" id="btn-registrar" a >Registrar</button>
+          
+        </form>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script  type="module" src="registro.js"   ></script>
+    
+    
+
+  </body>
+</html>
